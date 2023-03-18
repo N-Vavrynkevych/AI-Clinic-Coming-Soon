@@ -1,0 +1,159 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 0px;
+}
+
+.bg-img {
+  background: url("/image/Rectangle .jpg") 0 0/100% 100% no-repeat;
+  min-height: 430px;
+}
+
+.top {
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-style: 15px;
+}
+
+.bottom {
+  display: flex;
+  min-height: 220px;
+}
+
+.title {
+  display: flex;
+  align-items: end;
+}
+.title h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 65.81px;
+}
+
+.block {
+  max-width: 420px;
+  padding: 12px;
+  max-height: 100px;
+}
+.block .bold {
+  font-weight: 600;
+  font-size: 18px;
+}
+.block .normal {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.button {
+  padding: 12px;
+  max-width: 340px;
+  min-height: 82px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.button .text {
+  max-width: 312px;
+}
+.button .btn-bold {
+  margin: 22px 0px 22px 26px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.table {
+  max-width: 408px;
+  max-height: 436px;
+  padding: 50px 50px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pop {
+  display: flex;
+  justify-content: flex-end;
+}
+.pop .table {
+  margin-top: -480px;
+}
+.pop .table .rop {
+  padding: 0;
+}
+.pop .table h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 50px;
+}
+.pop .table p {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+@media (max-width: 991px) {
+  .pop {
+    justify-content: center;
+  }
+  .pop .table {
+    margin-top: 2rem;
+  }
+}
+
+.input-btn {
+  min-width: 300px;
+  min-height: 45px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding-left: 14px;
+}
+
+.input-btn::-moz-placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  color: #CCCCCC;
+}
+
+.input-btn::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  color: #CCCCCC;
+}
+
+.btn-green {
+  background: #4CAA88;
+  min-width: 100px;
+  min-height: 45px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.footer {
+  padding-top: 30px;
+  background: #F4F4F4;
+  min-height: 83px;
+}
+.footer .info {
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.wrapper {
+  min-height: calc(100vh - 83px);
+}
